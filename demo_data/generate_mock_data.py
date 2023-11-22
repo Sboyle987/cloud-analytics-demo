@@ -66,7 +66,7 @@ header = [
 ]
 
 # Write data to CSV file
-with open("gcp_instance_data.csv", "w", newline="") as csvfile:
+with open("mock_data.csv", "w", newline="") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=header)
 
     # Write header
@@ -75,4 +75,4 @@ with open("gcp_instance_data.csv", "w", newline="") as csvfile:
     # Write data
     writer.writerows(data)
 
-print("CSV file 'gcp_instance_data.csv' has been generated.")
+print("CSV file 'mock_data.csv' has been generated.")
