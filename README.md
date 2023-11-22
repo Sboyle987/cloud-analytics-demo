@@ -1,6 +1,7 @@
 # Cloud Analytics Demo
 
 This repository contains scripts and configurations for a cloud analytics demo. Follow the steps below to set up the environment using Terraform, publish a Docker image, and configure additional resources.
+There are more detailed README's in each directory, this serves as an overview of the setup.
 
 ## Prerequisites
 
