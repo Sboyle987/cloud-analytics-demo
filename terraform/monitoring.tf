@@ -2,7 +2,7 @@ resource "google_monitoring_notification_channel" "demo_channel" {
   display_name = "Email monitoring demo channel"
   type         = "email"
   labels = {
-    email_address = "s.boyle987@gmail.com"
+    email_address = "your-email@example.com"
   }
 }
 
